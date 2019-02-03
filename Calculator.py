@@ -40,7 +40,7 @@ if __name__ == "__main__":
     expression_field = Entry(win, textvariable=equation) 
     expression_field.grid(columnspan=4, ipadx=70)
     equation.set("enter an expression")
-    
+
     button1 = Button(win, text=' 1 ', fg='black', bg='white', 
                      command=lambda: press(1), height=1, width=7) 
     button1.grid(row=2, column=0) 
